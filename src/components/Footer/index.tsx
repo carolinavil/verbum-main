@@ -176,17 +176,24 @@ const Footer = () => {
 
             <div className="w-full px-4 md:w-1/2 lg:w-4/12 xl:w-3/12">
               <div className="mb-12 lg:mb-16">
-                <h2 className="mb-3 text-xl font-bold text-black dark:text-white">
-                  Ouvidoria
+                <div className="flex items-center mb-4">
+                <h2 className=" text-xl font-bold text-black dark:text-white">
+                  Ouvidoria:
+              
+              
                 </h2>
-                <ul>
-                  <li>
-                    <a
+               
+                <a
                       href="tel:08007220048"
-                      className="mb-1 inline-block text-base text-body-color duration-300 hover:text-primary dark:text-body-color-dark dark:hover:text-primary"
+                      className=" ml-1 inline-block text-base text-body-color duration-300 hover:text-primary dark:text-body-color-dark dark:hover:text-primary"
                     >
                       0800 7220 048
                     </a>
+                </div>
+          
+                <ul>
+                  <li>
+                
                   </li>
                   <li>
                     <a
@@ -247,12 +254,12 @@ const Footer = () => {
               © 2024 Verbum Capital - Assessor de Investimentos LTDA. Todos os direitos reservados.{" "}
             </p>
             <a
-              href="http://cyostech.com"
+              href="https://tyra.pro/"
               target="_blank"
               rel="noopener noreferrer"
               className="hover:text-primary flex justify-center text-center text-sm text-body-color dark:text-white"
             >
-              Criado e monitorado por&nbsp;<b>Cyos Technologies</b>
+              Criado e monitorado por&nbsp;<b>Tyra.pro</b>
             </a>
           </div>
         </div>
